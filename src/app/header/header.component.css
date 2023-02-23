@@ -1,0 +1,16 @@
+.example-sidenav-content{
+    background-color: black;
+    
+}
+mat-icon{
+    color: aliceblue;
+    
+}
+:hover mat-icon{
+    color: brown;
+
+}
+
+.ico{
+    background-color: transparent;
+}

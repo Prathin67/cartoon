@@ -1,0 +1,44 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<div class="row" style="background:url({{cartoonsdeta?.bckimage}})">
+    <!-- <mat-card class="col-lg-6">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            
+        </mat-card-header>
+        <img mat-card-image src="{{cartoonsdeta?.image}}">
+
+       
+    </mat-card> -->
+    <mat-card-title class="TITLE">{{cartoonsdeta?.title}}</mat-card-title>
+
+    
+    <youtube-player class="ytb" videoId={{cartoonsdeta?.ytblink}}> </youtube-player>
+
+  
+
+
+
+  
+    
+</div>
+<div class="comtsct">
+    <div class="comment-box">
+        
+        <textarea class="txtbox" [(ngModel)]="commentText" name="comment" placeholder="add a comment"></textarea>
+        <button class="ytbb" (click)="onSubmit()" type="submit">post comment</button>
+    
+    
+    </div>
+    <div *ngFor="let comment of comments" class="comment">
+    {{comment}}
+    
+    </div>
+    
+
+</div>
+
+
+
+
+

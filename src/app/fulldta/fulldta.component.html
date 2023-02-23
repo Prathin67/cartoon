@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<div class="row" style="background:url({{cartoondeta?.bckimage}})">
+    <mat-card class="col-lg-6">
+        
+            <div mat-card-avatar class="example-header-image"></div>
+            
+        
+        <img class="img" mat-card-image src="{{cartoondeta?.image}}">
+
+       
+    </mat-card>
+    <mat-card-title class="TITLE">{{cartoondeta?.title}}</mat-card-title>
+    <button (click)="you(cartoondeta)" mat-button class="ha"><span class="material-symbols-rounded">
+        youtube_activity
+        </span></button>
+    <h1 class="des">{{cartoondeta?.description}}</h1>
+    
+    
+
+    
+</div>
+

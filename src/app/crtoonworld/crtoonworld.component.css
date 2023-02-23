@@ -1,0 +1,28 @@
+.basic{
+    background-image: url(https://wallpapercave.com/dwp2x/wp11922354.jpg);
+
+     /* The image used */
+ 
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.para{
+    font-size:small;
+    padding-left: 90px;
+    padding-right: 90px;
+    color: rgb(240, 139, 8);
+    
+}
+.WORD{
+    text-align: center;
+    font-size:  90px;
+    color: rgb(255, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
